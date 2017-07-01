@@ -1,0 +1,113 @@
+#pomodoro {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: pink;
+	border-width: 5px;
+    height: 550px;
+    width: 500px;
+    background-color: aliceblue;
+	font-family: 'lobster', cursive;
+}
+
+.timerPod {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+	background-color: aqua;
+	border: solid;
+	border-color: pink;
+	
+}
+
+.innerPod {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+	line-height: 125px; 
+}
+
+#timer {
+    margin-top: 50px;
+	vertical-align: middle;
+    height: 50px;
+	line-height: 50px;
+	color: teal;
+}
+
+#display {
+	padding-left: 25%;
+	padding-right: 25%;
+    font-size: 20px;
+	vertical-align: middle;
+	line-height: 50px;
+    color: teal;
+}
+
+.breakPod {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: auto;
+    border: solid;
+    border-color: pink;
+	border-width: 2px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    float: left;
+	border-radius: 250px;
+	color: teal;
+}
+
+.workPod {
+    margin-top: 0px;
+    margin-right: 100px;
+    border: solid;
+    border-color: pink;
+	border-width: 2px;
+    height: 100px;
+    width:100px;
+    text-align: center;
+    float: right;
+	border-radius: 250px;
+	color: teal;
+}
+
+.pause {
+	margin: 15px;
+    margin-right: auto;
+    border: solid;
+    border-color: pink;
+	border-width: 2px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+	border-radius: 250px;
+	vertical-align: middle;
+	line-height: 50px; 
+	color: teal;
+}
+
+.lessBreak, .lessSession {
+	margin-top: 10px;
+	margin-left: 5px;
+    width: 40px;
+    float: left;
+}
+
+.moreBreak, .moreSession {
+	margin-top: 10px;
+	margin-right: 5px;
+    width: 40px;
+    float: right;
+}
+
+.highlight {
+    background-color: aqua;
+}
